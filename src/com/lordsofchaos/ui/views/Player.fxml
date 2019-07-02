@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="hi" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1500.0" stylesheets="@../style/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.151" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lordsofchaos.ui.controllers.PlayerController">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1500.0" focusTraversable="true" opacity="0.7" pickOnBounds="true">
+         <image>
+            <Image url="@../style/gameBackground.jpg" />
+         </image>
+         <effect>
+            <BoxBlur height="30.0" width="30.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label id="sceneTitleLabel" layoutX="595.0" layoutY="120.0" text="Lords of Chaos" textFill="WHITE">
+         <font>
+            <Font name="PT Sans" size="50.0" />
+         </font>
+      </Label>
+      <Label id="sceneTitleSubLabel" layoutX="574.0" layoutY="205.0" prefHeight="39.0" prefWidth="360.0" text="Lobby  Successfully Joined!" textFill="#ff9292">
+         <font>
+            <Font name="PT Sans" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lobbyIPAddressLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-3.0" layoutY="246.0" prefHeight="40.0" prefWidth="1500.0" styleClass="impactFont" text="Lobby IP Address: 12.34.56.78" AnchorPane.bottomAnchor="614.0" AnchorPane.leftAnchor="-3.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="246.0">
+         <font>
+            <Font name="PT Sans" size="23.0" />
+         </font>
+      </Label>
+      <Button id="menuButton" fx:id="readyButton" layoutX="639.0" layoutY="582.0" mnemonicParsing="false" onAction="#readyButtonPressed" prefHeight="51.0" prefWidth="220.0" text="Ready">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="menuButton" fx:id="leaveLobby" layoutX="639.0" layoutY="650.0" mnemonicParsing="false" onAction="#leaveLobbyButtonPressed" prefHeight="51.0" prefWidth="220.0" text="Leave Lobby">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="548.0" layoutY="376.0" styleClass="impactFont" text="Press Ready to wait for host to start game.">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="loadingGif" fitHeight="57.0" fitWidth="99.0" layoutX="714.0" layoutY="456.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../style/loading.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="loadingMessage" layoutX="635.0" layoutY="525.0" styleClass="impactFont" text="Waiting for host to start game..." visible="false">
+         <font>
+            <Font name="System Italic" size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="hi" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1500.0" stylesheets="@../style/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.151" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lordsofchaos.ui.controllers.PlayerHostController">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1500.0" focusTraversable="true" opacity="0.7" pickOnBounds="true">
+         <image>
+            <Image url="@../style/gameBackground.jpg" />
+         </image>
+         <effect>
+            <BoxBlur height="30.0" width="30.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label id="sceneTitleLabel" layoutX="604.0" layoutY="121.0" text="Lords of Chaos" textFill="WHITE">
+         <font>
+            <Font name="PT Sans" size="50.0" />
+         </font>
+      </Label>
+      <Label id="sceneTitleSubLabel" layoutX="587.0" layoutY="197.0" prefHeight="39.0" prefWidth="336.0" text="Lobby Succefully Created!" textFill="#ff9292">
+         <font>
+            <Font name="PT Sans" size="31.0" />
+         </font>
+      </Label>
+      <Label fx:id="lobbyIPAddressLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="237.0" prefHeight="44.0" prefWidth="1500.0" styleClass="impactFont" text="Lobby IP Address: 12.34.56.78" AnchorPane.bottomAnchor="619.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="237.0">
+         <font>
+            <Font name="PT Sans" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="startingGameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="237.0" prefHeight="44.0" prefWidth="1500.0" styleClass="impactFont"
+             AnchorPane.bottomAnchor="550.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="237.0">
+         <font>
+            <Font name="PT Sans" size="23.0" />
+         </font>
+      </Label>
+      <Button id="menuButton" fx:id="singlePlayer" layoutX="640.0" layoutY="461.0" mnemonicParsing="false" onAction="#singlePlayer" prefHeight="51.0" prefWidth="233.0" text="SinglePlayer">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+       <Button id="menuButton" fx:id="multiPlayer" layoutX="640.0" layoutY="525.0" mnemonicParsing="false" onAction="#startMultiPlayerServer" prefHeight="51.0" prefWidth="233.0" text="Start MultiPlayer Server">
+           <font>
+               <Font size="17.0" />
+           </font>
+       </Button>
+      <Button id="menuButton" fx:id="readyButton" layoutX="640.0" layoutY="587.0" mnemonicParsing="false" onAction="#readyButtonPressed" prefHeight="51.0" prefWidth="233.0" text="Ready">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button id="menuButton" fx:id="leaveLobby" layoutX="641.0" layoutY="651.0" mnemonicParsing="false" onAction="#leaveLobbyButtonPressed" prefHeight="51.0" prefWidth="231.0" text="Leave Lobby">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <CheckBox id="checkBox" fx:id="sandDustCheckBox" layoutX="696.0" layoutY="410.0" mnemonicParsing="false" onAction="#sandDustChecked" text="Sand Dust">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <CheckBox id="checkBox" fx:id="greenFarmCheckBox" layoutX="694.0" layoutY="370.0" mnemonicParsing="false" onAction="#greenFarmChecked" text="Green Farm">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </CheckBox>
+      <Label id="sceneTitleSubLabel" layoutX="666.0" layoutY="322.0" text="Map Selection:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

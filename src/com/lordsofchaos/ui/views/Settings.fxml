@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="hi" fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1500.0" stylesheets="@../style/stylesheet.css" xmlns="http://javafx.com/javafx/8.0.151" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.lordsofchaos.ui.controllers.SettingsController">
+   <children>
+      <ImageView fitHeight="900.0" fitWidth="1500.0" focusTraversable="true" opacity="0.7" pickOnBounds="true">
+         <image>
+            <Image url="@../style/gameBackground.jpg" />
+         </image>
+         <effect>
+            <BoxBlur height="30.0" width="30.0" />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </ImageView>
+      <Label id="sceneTitleLabel" layoutX="604.0" layoutY="161.0" text="Lords of Chaos" textFill="WHITE">
+         <font>
+            <Font name="PT Sans" size="50.0" />
+         </font>
+      </Label>
+      <Button id="menuButton" fx:id="doneButton" layoutX="658.0" layoutY="685.0" mnemonicParsing="false" onAction="#doneButtonPressed" prefHeight="39.0" prefWidth="200.0" styleClass="mainMenuButton" text="Done">
+         <padding>
+            <Insets left="1000.0" right="1000.0" />
+         </padding>
+      </Button>
+      <Label id="sceneTitleSubLabel" layoutX="542.0" layoutY="311.0" text="Game Audio" textFill="WHITE">
+         <font>
+            <Font name="PT Sans" size="37.0" />
+         </font>
+      </Label>
+      <Button layoutX="839.0" layoutY="295.0" mnemonicParsing="false" onAction="#increaseGameAudioButtonPressed" prefHeight="65.0" prefWidth="65.0" styleClass="volumeButton" text="+" />
+      <Button layoutX="754.0" layoutY="295.0" mnemonicParsing="false" onAction="#decreaseInGameAudioButtonPressed" prefHeight="65.0" prefWidth="65.0" styleClass="volumeButton" text="-" />
+      <Label fx:id="gameAudioPercentage" layoutX="935.0" layoutY="314.0" styleClass="soundPercentage" text="50%">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button id="menuButton" layoutX="657.0" layoutY="617.0" mnemonicParsing="false" onAction="#muteButtonPressed" prefHeight="39.0" prefWidth="200.0" styleClass="mainMenuButton" text="Mute">
+         <padding>
+            <Insets left="1000.0" right="1000.0" />
+         </padding>
+      </Button>
+   </children>
+</AnchorPane>
