@@ -12,3 +12,9 @@ Graphics - Ben Sassoon <br/>
 UI/UX - Ali Hejazi <br/>
 <br/>
 System Integration: Obaid Ur-Rahmaan  
+
+## Snapshots
+
+### Starting a Lobby Server
+
+![](/resources/Repo-Images/creating-lobby.gif)
