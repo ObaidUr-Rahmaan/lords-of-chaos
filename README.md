@@ -24,3 +24,7 @@ System Integration: Obaid Ur-Rahmaan
 ### Joining a Lobby Server
 
 ![](/resources/Repo-Images/joining-lobby.gif)
+
+### Single-player Gameplay
+
+![](/resources/Repo-Images/single-player.gif)
