@@ -17,7 +17,7 @@ System Integration: Obaid Ur-Rahmaan
 
 ### Starting a Lobby Server
 
-![](/resources/Repo-Images/creating-lobby.gif)
+![](/resources/Repo-Images/creating-lobby.gif = 50 * 50)
 
 <br/>
 
