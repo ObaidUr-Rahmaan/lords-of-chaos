@@ -4,6 +4,8 @@ Fully functional, multiplayer online Tank game including multiple maps, power-up
 
 Grade: **1st-Class**
 
+## Jobs/Responsibilities
+
 AI - Zornitsa Tonozlieva <br/>
 Networking - Obaid Ur-Rahmaan <br/>
 Audio - Zechan Wang <br/>
