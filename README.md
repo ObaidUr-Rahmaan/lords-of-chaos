@@ -2,7 +2,7 @@
 
 Fully functional, multiplayer online Tank game including multiple maps, power-ups and special effects.  
 
-Grade: First-Class
+Grade: **First-Class**
 
 AI - Zornitsa Tonozlieva <br/>
 Networking - Obaid Ur-Rahmaan <br/>
