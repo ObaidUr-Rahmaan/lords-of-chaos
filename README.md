@@ -26,6 +26,8 @@ Grade: **1st-Class**
 
 ![](/resources/Repo-Images/joining-lobby.gif)
 
+<br/>
+
 ### Single-player Gameplay
 
 ![](/resources/Repo-Images/single-player.gif)
