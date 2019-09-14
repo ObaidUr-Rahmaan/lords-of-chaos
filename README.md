@@ -6,14 +6,13 @@ Grade: **1st-Class**
 
 ## Jobs/Responsibilities
 
-AI - Zornitsa Tonozlieva <br/>
-Networking - Obaid Ur-Rahmaan <br/>
-Audio - Zechan Wang <br/>
-GameEngine/Logic - Max Warren <br/>
-Graphics - Ben Sassoon <br/>
-UI/UX - Ali Hejazi <br/>
-<br/>
-System Integration: Obaid Ur-Rahmaan  
+* AI - Zornitsa Tonozlieva <br/>
+* Networking - Obaid Ur-Rahmaan <br/>
+* Audio - Zechan Wang <br/>
+* GameEngine/Logic - Max Warren <br/>
+* Graphics - Ben Sassoon <br/>
+* UI/UX - Ali Hejazi <br/>
+* System Integration: Obaid Ur-Rahmaan <br/>
 
 ## Snapshots
 
