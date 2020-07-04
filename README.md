@@ -6,7 +6,7 @@ Inspired by: [Tank Trouble](https://tanktrouble.com/)
 
 Grade: **1st-Class**
 
-## Jobs/Responsibilities
+## Contributors
 
 * AI - Zornitsa Tonozlieva <br/>
 * Networking - Obaid Ur-Rahmaan <br/>
