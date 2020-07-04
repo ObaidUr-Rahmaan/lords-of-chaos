@@ -30,6 +30,6 @@ Grade: **1st-Class**
 
 <br/>
 
-### Single-player Gameplay
+### Single-player Gameplay + AI
 
 ![](/resources/Repo-Images/single-player.gif)
