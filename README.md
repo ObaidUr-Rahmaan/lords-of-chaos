@@ -16,7 +16,7 @@ Grade: **1st-Class**
 * UI/UX - Ali Hejazi <br/>
 * System Integration: Obaid Ur-Rahmaan <br/>
 
-## Snapshots
+## Snapshots (Lag due to gif - not game)
 
 ### Starting a Lobby Server
 
