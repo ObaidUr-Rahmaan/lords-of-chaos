@@ -1,6 +1,8 @@
-# Team Lords Of Chaos
+# Lords Of Chaos
 
-Fully functional, multiplayer online Tank game including multiple maps, power-ups and special effects.  
+Fully functional, fully-featured multiplayer online Tank game including multiple maps, power-ups and special effects.  
+
+Inspired by: [Tank Trouble](https://tanktrouble.com/)
 
 Grade: **1st-Class**
 
