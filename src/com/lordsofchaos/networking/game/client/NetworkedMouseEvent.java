@@ -10,7 +10,7 @@ import java.io.Serializable;
  * This class takes the relevent information from a Javafx mouse event and turns it into
  * a class that is definitely serializable
  *
- * @author Max Warren
+ * @author Obaid Ur-Rahmaan
  */
 public class NetworkedMouseEvent implements Serializable {
 
